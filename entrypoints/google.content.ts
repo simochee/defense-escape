@@ -1,5 +1,4 @@
-import { confirmClose } from "@/utils/confirm";
-import { i18n } from "#i18n";
+import { confirmClose } from "~/utils/confirm";
 
 export default defineContentScript({
 	matches: [
