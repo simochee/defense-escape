@@ -1,0 +1,5 @@
+ext:
+  name: Defense Escape for Sheets
+  description: スプレッドシートで ESC キーを押したときに確認ダイアログを表示します
+confirm:
+  title: 編集中のセルを閉じますか？

@@ -1,0 +1,10 @@
+# @see https://wxt.dev/i18n#vs-code
+
+languageIds:
+  - typescript
+  - typescriptreact
+
+usageMatchRegex:
+  - "[^\\w\\d]t\\(['\"`]({key})['\"`]"
+
+monopoly: true

@@ -2,8 +2,9 @@ import { defineConfig } from "wxt";
 
 export default defineConfig({
 	manifest: {
-		name: "wxt-template",
-		description: "about this extension",
+		default_locale: "en",
+		name: "__MSG_ext_name__",
+		description: "__MSG_ext_description__",
 	},
-	modules: ["@wxt-dev/auto-icons"],
+	modules: ["@wxt-dev/i18n/module", "@wxt-dev/auto-icons"],
 });
