@@ -1,3 +1,5 @@
 ext:
   name: Defense Escape for Sheets
   description: Prevents data loss by confirming ESC key in spreadsheets
+confirm:
+  title: Close the cell you are editing?
