@@ -1,0 +1,36 @@
+{
+	"name": "wxt-template",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "wxt build",
+		"dev": "wxt",
+		"postinstall": "lefthook install && wxt prepare"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@commitlint/cli": "^19.8.0",
+		"@commitlint/config-conventional": "^19.8.0",
+		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/exec": "^7.0.3",
+		"@semantic-release/git": "^10.0.1",
+		"@wxt-dev/auto-icons": "^1.0.2",
+		"lefthook": "^1.11.3",
+		"semantic-release": "^24.2.3",
+		"sort-package-json": "^3.0.0",
+		"wxt": "^0.19.29"
+	},
+	"packageManager": "pnpm@10.6.2+sha512.47870716bea1572b53df34ad8647b42962bc790ce2bf4562ba0f643237d7302a3d6a8ecef9e4bdfc01d23af1969aa90485d4cebb0b9638fa5ef1daef656f6c1b",
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"@biomejs/biome",
+			"lefthook",
+			"sharp"
+		],
+		"ignoredBuiltDependencies": [
+			"@biomejs/biome",
+			"lefthook"
+		]
+	}
+}

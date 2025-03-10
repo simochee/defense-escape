@@ -1,0 +1,7 @@
+node_modules/
+.wxt/
+.output/
+.DS_Store
+.env.submit*
+*.log
+*.local
