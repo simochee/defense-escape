@@ -13,11 +13,10 @@ pre-commit:
           --unsafe \
           --no-errors-on-unmatched \
           --files-ignore-unknown=true \
-          {staged_files} \
-        && git update-index --again
+          {staged_files}
+      stage_fixed: true
 
     sort-package-json:
       glob: package.json
-      run: |-
-        npx sort-package-json \
-        && git update-index --again
+      run: npx sort-package-json
+      stage_fixed: true
