@@ -31,8 +31,8 @@ also compatible with
 | --- | :---: | :---: |
 | **Microsoft 365** | - | ✅ |
 | **Google Drive** | ✅ | ✅ |
-| **Box** | ✅ | ✅ |
-| **Dropbox** | ✅ | ✅ |
+| **Box** | ✅ | 🐛 |
+| **Dropbox** | ✅ | 🐛 |
 
 ## License
 
