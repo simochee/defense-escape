@@ -2,6 +2,8 @@
 
 # Defence Escape for Sheets
 
+> **Browser Extension:** Prevents data loss by confirming ESC key in spreadsheets
+
 A browser extension that guards your spreadsheet edits by showing a confirmation dialog when pressing ESC key, preventing accidental data loss in Google Sheets and Excel.
 
 ## Install
@@ -27,10 +29,10 @@ also compatible with
 
 | App | Google Sheets | Microsoft Excel | 
 | --- | :---: | :---: |
-| Microsoft 365 | - | 🚧 |
-| Google Drive | ⭕️ | 🚧 |
-| Box | ⭕️ | 🚧 |
-| Dropbox | ⭕️ | 🚧 |
+| **Microsoft 365** | - | ✅ |
+| **Google Drive** | ✅ | ✅ |
+| **Box** | ✅ | ✅ |
+| **Dropbox** | ✅ | ✅ |
 
 ## License
 
