@@ -30,6 +30,5 @@ export default {
 				labels: ["release"],
 			},
 		],
-		"@semantic-release/git",
 	],
 };
