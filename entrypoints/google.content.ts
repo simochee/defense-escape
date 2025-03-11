@@ -1,5 +1,3 @@
-import { confirmClose } from "~/utils/confirm";
-
 export default defineContentScript({
 	matches: [
 		"https://docs.google.com/spreadsheets/d/*",
