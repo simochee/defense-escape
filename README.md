@@ -19,6 +19,19 @@ also compatible with
 [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/firefox/firefox.svg" width="32" alt="Firefox">][link-firefox]
 [<img src="https://img.shields.io/amo/v/defense-escape" alt="Add-ons for Firefox">][link-firefox]
 
+## Screenshot
+
+![](./screenshot.webp)
+
+## Supported Services
+
+| App | Google Sheets | Microsoft Excel | 
+| --- | :---: | :---: |
+| Microsoft 365 | - | 🚧 |
+| Google Drive | ⭕️ | 🚧 |
+| Box | ⭕️ | 🚧 |
+| Dropbox | ⭕️ | 🚧 |
+
 ## License
 
 MIT
