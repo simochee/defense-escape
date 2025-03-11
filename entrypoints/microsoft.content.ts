@@ -1,6 +1,9 @@
 export default defineContentScript({
 	allFrames: true,
-	matches: ["https://excel.officeapps.live.com/*"],
+	matches: [
+		"https://excel.officeapps.live.com/*",
+		"https://pjp1-excel.officeapps.live.com/*",
+	],
 	runAt: "document_end",
 	async main() {
 		const textElement = await waitForElement(
