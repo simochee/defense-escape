@@ -29,10 +29,10 @@ also compatible with
 
 | App | Google Sheets | Microsoft Excel | 
 | --- | :---: | :---: |
-| **Microsoft 365** | - | 🚧 |
-| **Google Drive** | ✅ | 🚧 |
-| **Box** | ✅ | 🚧 |
-| **Dropbox** | ✅ | 🚧 |
+| **Microsoft 365** | - | ✅ |
+| **Google Drive** | ✅ | ✅ |
+| **Box** | ✅ | ✅ |
+| **Dropbox** | ✅ | ✅ |
 
 ## License
 
